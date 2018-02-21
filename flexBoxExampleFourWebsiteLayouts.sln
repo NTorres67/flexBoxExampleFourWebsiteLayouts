@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "flexBoxExampleFourWebsiteLayouts", "flexBoxExampleFourWebsiteLayouts\", "{AE691FEF-B635-42F8-830F-C6FD00A88446}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50756"
+		Debug.AspNetCompiler.PhysicalPath = "flexBoxExampleFourWebsiteLayouts\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50756\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50756"
+		Release.AspNetCompiler.PhysicalPath = "flexBoxExampleFourWebsiteLayouts\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50756\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50756"
+		SlnRelativePath = "flexBoxExampleFourWebsiteLayouts\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE691FEF-B635-42F8-830F-C6FD00A88446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE691FEF-B635-42F8-830F-C6FD00A88446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820DD41A-98FC-4875-B142-5B01FAB9B192}
+	EndGlobalSection
+EndGlobal
