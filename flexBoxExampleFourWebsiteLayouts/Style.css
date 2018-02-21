@@ -1,1 +1,83 @@
-﻿
+﻿.container {
+    display: grid;
+    min-height: 100vh;
+}
+
+/* ===== Visuals =====*/
+
+* {
+    box-sizing: border-box;
+}
+
+nav,
+aside {
+    background-color: lightgray;
+    padding: 10px;
+    width: 20vw;
+}
+
+header,
+footer {
+    background-color: lightslategray;
+    height: 20vh;
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
+}
+
+
+Holy Grail Layout
+
+body {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    height: 30vh;
+    flex: 1;    flex-grow: 1, flex-shrink: 1, flex-basis: 0
+}
+
+article {
+    flex: 1;
+}
+
+nav {
+    order: -1;
+}
+
+/*Holy Grail Layout 2*/
+
+body {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 40vh);    /****** height calculation ******/
+}
+
+article {
+    flex: 1;
+}
+
+nav {
+    order: -1;
+}
